@@ -1,0 +1,16 @@
+#%RAML 0.8
+title: Sample API
+
+/sarcasm:
+  get:
+    queryParameters:
+      input:
+        type: string
+        required: true
+        example: Sarcasm Generator
+    responses:
+      200:
+        body:
+          text/plain:
+            example:
+              SaRCaSM GEneraTor
