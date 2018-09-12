@@ -4,7 +4,7 @@ An API written with Mule that generates sarcastic sentences in compliance with t
 ## Example:
 
 ### Request: 
-http://<host>/api/sarcasm?input=Hello world!
+http://somewhere.cloudhub.io/api/sarcasm?input=Hello%20World!
 
 ### Response:
 hElLO wORld!
