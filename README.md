@@ -3,6 +3,8 @@ An API written with Mule that generates sarcastic sentences in compliance with t
 
 ## Example:
 
+Deploy this application on your own CloudHub instance and replace "somewhere.cloudhub.io" with your CloudHub host name.
+
 ### Request: 
 http://somewhere.cloudhub.io/api/sarcasm?input=Hello%20World!
 
